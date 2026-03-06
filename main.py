@@ -25,3 +25,4 @@ def obter_extremos () :
 dados = limpar_dados ( dados_sujos )
 
 print ( f" Dados processados : { dados }")
+print ("Verificado por : Gustavo(owner)")
