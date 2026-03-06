@@ -1,8 +1,14 @@
 
 dados_sujos = [10 , " erro ", 20 , 30 , 40 , None , 50 , 15 , " falha ", 25]
 
-def limpar_dados () :
-    pass
+def limpar_dados (dados) :
+    dados_limpos = []
+    for i in range(len(dados)):
+        if type(dados[i]) == int or type(dados[i]) == float:
+            dados_limpos.append(dados[i])
+        else:
+            continue
+    return dados_limpos
 
 def calcular_media () :
     pass
