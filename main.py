@@ -29,9 +29,13 @@ def obter_extremos (dados) :
 
 dados = limpar_dados ( dados_sujos )
 menor, maior = obter_extremos(dados)
+media = calcular_media(dados)
 
 print ( f" Dados processados : { dados }")
 print(f"Extremo menor: {menor} ")
 print(f"Extremo maior: {maior} ")
+print(f"A média dos dados é: {media}")
 
 print ("Verificado por : Gustavo(owner)")
+print("Verificado por: Gustavo de Farias")
+
